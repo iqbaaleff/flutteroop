@@ -106,6 +106,8 @@ class Home extends StatelessWidget {
     kuda.nyala();
     kuda.mati();
 
-    return Scaffold();
+    return Scaffold(
+      appBar: AppBar(),
+    );
   }
 }
